@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS files
+.vs/
+
+# Model weights (large files — train locally)
+models/*.pt
+models/yolov8n.pt
+
+# Training runs output
+runs/
+
+# Dataset cache
+dataset/**/*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+*.ipynb_checkpoints

@@ -1,0 +1,9 @@
+# YOLOv8 Dataset Configuration - Parking Space Occupancy Detection
+# Classes: 0 = free, 1 = occupied, 2 = partially_occupied
+
+path: dataset
+train: images/train
+val: images/val
+
+nc: 3
+names: ['free', 'occupied', 'partially_occupied']

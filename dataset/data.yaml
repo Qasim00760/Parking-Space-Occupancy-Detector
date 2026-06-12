@@ -1,0 +1,9 @@
+# YOLOv8 Dataset Configuration - Parking Space Occupancy Detection
+# Classes: 0 = free, 1 = occupied, 2 = partially_occupied
+
+path: C:/Users/Hassan/Desktop/parking_occupancy_detector/dataset
+train: train/images
+val: val/images
+
+nc: 3
+names: ['free', 'occupied', 'partially_occupied']
