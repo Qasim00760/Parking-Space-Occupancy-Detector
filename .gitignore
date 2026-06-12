@@ -13,8 +13,7 @@ env/
 # VS files
 .vs/
 
-# Model weights (large files — train locally)
-models/*.pt
+# Model weights — yolov8n base model ignore karo, best.pt include karo
 models/yolov8n.pt
 
 # Training runs output
